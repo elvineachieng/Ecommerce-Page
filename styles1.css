@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-color: white;
+    text-align:center;
+    width:100vw;
+    height:100vh;
+
+}
+form{
+    width: 50%;
+    height: 70vw;
+    color:white;
+    background-color: black;
+    margin:15% 25%;
+    padding: 4% 8%;
+}
+
+label{
+    display: block;
+    width: max-content;
+}
+.titleText{
+    width: 100%;
+    font-size: 30px;
+}
+input,textarea{
+    display: block;  
+    min-width:100%;
+    max-width:100%;
+    height:5vh;
+    margin-bottom: 2.4%;
+    border:none;
+    outline:none;
+    border-radius:8px;
+    padding: 20px;
+}
+
+button{
+    display: block;
+    width: calc(100% + 40px);
+    border-radius: 5px;
+    height: 30px;
+    background: orange;
+}
+
