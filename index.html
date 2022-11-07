@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .display {
+            margin-bottom: 8%;
+        }
+    </style>
+</head>
+<body>
+    <!--Block: are elements that occupy entire width 
+        of their parent elements  { form, div, p, nav
+        , main, footer}
+    Inline: are elements that occupy only the space 
+        that they need { span, a, img,
+             input, button,label}
+    -->
+    <!-- 
+        HTTP Methods: GET, POST, PUT, DELETE
+        GET: used to retrieve data from server
+        POST: used to send data to server
+        PUT: used to update data on server
+        DELETE: used to delete data from server
+        CRUD: Create, Read, Update, Delete
+
+    -->
+    <form method="GET", action="/api/logger"> 
+        <div class="display">
+            <label>
+                Name:
+                <input type="text" name="name" >
+            </label>
+        </div>
+        <div class="display">
+            <label>
+                Email:
+                <input type="email" name="email" >
+            </label>
+        </div>
+        <div class="display">
+            <button type="submit">send data</button>
+        </div>
+        
+    </form>
+</body>
+</html>
