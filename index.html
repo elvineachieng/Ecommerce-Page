@@ -37,17 +37,26 @@
             Programming Languages
             <input type="checkbox" name="pl">
             <label> python</label>
-            <input type="checkbox" name="pl">
+            <input type="checkbox" name="pl" value="javascript" checked>
             <label> javascript</label>
-            <input type="checkbox" name="pl">
+            <input type="checkbox" name="pl" >
             <label> c++</label>
             <input type="checkbox" name="pl">
             <label> haskel</label>
         </label>
-
+        <label>
+            Select region:
+            <select name="region">
+                <option value="nairobi">Nairobi</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="kisumu" selected>Kisumu</option>
+                <option value="nakuru">Nakuru</option> 
+            </select>
+        </label>
         <label for="password">Password</label>
         <input type="password" id="password">
-        <button>login</button>
+        <button type="submit">login</button>
+        <button type="reset">reset</button>
     </form>
     <!--
         Type of input elements:
@@ -61,9 +70,29 @@
         time - time
         date - date
         email - email
+        value-attribute - for capturing data from input elements
 
         @TODO: create a form with the following fields
+        1. username
+        2. email
+        3. password
+        4. confirm password
+        5. age
+        6. date of birth
+        7. origin county
+        8. citizen( yes, no)
+        9. gender (male, female, unknown)
+        10. marital status (single, married, divorced, widowed)
+
+
         @TODO: learn select element
+        select element: used to create dropdowns
+        option element: used to create options in dropdowns
+        button element: used to create buttons
+        types of button element: submit, reset, button
+        submit - submits form data to server
+        reset - clears form data
+        button - used to create buttons
     -->
 </body>
 </html>
