@@ -1,0 +1,57 @@
+body{
+    margin:o;
+    width:100vh;
+    height:100vw;
+    background: black;
+
+} 
+.caption{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+
+}
+form{
+    background: skyblue;
+    width:60%;
+    height:150vw;
+    margin:15%  0px 25% 25%;
+    padding: 4% 8%;
+}
+.text-label{
+    display: block;
+}
+label{
+    
+    font-size: 20px;
+    
+
+}
+.text-input{
+    display: block;
+    padding: 0 8px;
+    height: 4vh;
+}
+input{
+    border:none;
+    border-radius: 8px;
+    outline:none;
+    margin-bottom: 2.4px;
+    
+    
+}
+button{
+    border: none;
+    border-radius: 8%;
+    background-color: lightblue;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: block;
+    color: black;
+    margin-left: 42%;
+    box-shadow:1px 1px 2px 4px rgba(0,0,0,0.3 ) ; 
+    border-radius: 8px;
+}
+p{
+    font-size: 20px;
+}

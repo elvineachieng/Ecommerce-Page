@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+   <Form>
+    
+    <span class="caption">
+        <i>Please fill in this  form</i>
+    </span>
+    <label for="username" class="text-label" >First Name:</label>
+    <input type="text" class="text-input" id="username" placeholder="Elvine">
+   
+    <label for="username">Last Name:</label>
+    <input type="text" class="text-input" id="username" placeholder="Achieng">
+    <label for="email">Email:</label>
+    <input type="email" class="text-input" id="email" palceholder="achieng@gmail.com">
+   
+    <label for="password">Password:</label>
+    <input type="password" class="text-input" id="password">
+   
+    <label for="password">Confirm Password</label>
+    <input type="password" class="text-input" id="password" required>
+   
+    <label for="age">Age</label>
+    <input type="age" class="text-input" id="age">
+   
+    <label for="date">Date of birth</label>
+    <input type="date" class="text-input" id="date">
+   
+    <label> 
+        Select County of Origin:
+        <select name="county" id="county">
+            <option value="kisumu">Kisumu</option>
+            <option value="nairobi" selected>Nairobi</option>
+            <option value="kiambu">Kiambu</option>
+            <option value="homabay">Homabay</option>
+            <option value="migor">Migori</option>
+        </select>
+    </label>
+   
+    <p>Are you a citizen of Kenya</p>
+    <label for="radio" >Yes</label>
+    <input type="radio" id="yes" name="citizen">
+    <label for="radio" >No</label>
+    <input type="radio" id="no" name="citizen">
+   
+    <p>Please select your gender</p>
+    <label for="radio">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="radio">Female</label>
+    <input type="radio" name="gender" id="female">
+    <label for="radio">Unknown</label>
+    <input type="radio" name="gender" id="Unknown">
+   
+   <p> What is your marital status:</p>
+    <label for="radio">Single</label>
+    <input type="radio" name="status" id="single">
+    <label for="radio">Married</label>
+    <input type="radio" name="status" id="married">
+    <label for="radio">Divorced</label>
+    <input type="radio" name="status" id="divorced">
+    <label for="radio">Widowed</label>
+    <input type="radio"  name="status"id="widowed">
+   
+    <p>Which languages do you speak:</p>
+    <input type="checkbox" name="language">
+    <label> German</label>
+    <input type="checkbox" name="pl">
+            <label> Spanish</label>
+            <input type="checkbox" name="language" checked>
+            <label> French</label>
+            <input type="checkbox" name="language">
+            <label> Kiswahili</label>
+            <input type="checkbox" name="language">
+            <label> Luo</label>
+  
+   <button>submit</button>
+    
+   </Form> 
+</body>
+</html>
